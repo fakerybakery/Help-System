@@ -64,13 +64,14 @@ if (mysqli_connect_errno()) {
    
 // Use unlink() function to delete a file 
 if (!unlink($file_pointer)) { 
-    echo ("$file_pointer cannot be deleted due to an error"); 
+    echo ("Config File cannot be deleted."); 
 } 
 else { 
-    echo ("$file_pointer has been deleted"); 
-} 
-  header('Location: index.php');
+//deleted
+    header('Location: index.php');
   exit;
+} 
+
 }
 ?>
 <!DOCTYPE html>
