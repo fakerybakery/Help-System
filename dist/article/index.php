@@ -29,7 +29,7 @@ $header = '<html>
 <style>*{font-family:Arial;text-align:center;}img,video,audio{max-width:75%;}</style>
 </head>
 <body>
-<form method="post" action="/help/">
+<form method="get" action="/help/">
 <h3>More help...</h3>
   <input type="text" name="search" autofocus value="' . $name . '">
   <input type="submit" value="Search"/>
