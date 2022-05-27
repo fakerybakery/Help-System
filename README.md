@@ -1,5 +1,5 @@
 # PHP MySQL Help System
-### Currently on v3.1.4
+### Currently on v3.1.5
 A free support system powered by PHP and MySQL. Runs on PHP 8.
 
 Simple! Safe! Free! Secure!
