@@ -2,7 +2,7 @@
 require('../functions.php')
 $db = mysqli_connect($host, $uname, $pword, $db);
 if (!$db) {
-    die("Connection failed: " . mysqli_connect_error());
+    die("MySQL connection failed: " . mysqli_connect_error());
 }
 
 $records = mysqli_query($db, "select * from help where url = '" . $_GET['name'] . "'"); // fetch data from database
