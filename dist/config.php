@@ -1,5 +1,7 @@
 <?php
-/*query
+/*
+
+Run the following SQL code in MySQL to setup the database.
 
 
 CREATE TABLE `help` (
