@@ -1,3 +1,4 @@
+<a href="https://www.mrfake.name/ghpromo" target="_blank"><img src="https://mrfake.name/ghpromo/promo.png" height="250"></a>
 # PHP MySQL Help System
 ### Currently on v3.1.5
 A free support system powered by PHP and MySQL. Runs on PHP 8.
